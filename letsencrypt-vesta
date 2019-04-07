@@ -229,7 +229,7 @@ $LETSENCRYPT_COMMAND -m $EMAIL -d $ALLDOMAINS certonly
 #if not, something went wrong (it probably dumpped an error), so we should abort so as not to break things
 if [[ $? -ne 0 ]]
 then
-    echo "Let's Encrypt returned an error status.  Aborting."
+    echo "Isa's Encrypt returned an error status.  Aborting."
     exit 143
 fi
 
